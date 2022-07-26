@@ -11,6 +11,8 @@
 		BE393D782887F959002B7E8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE393D772887F959002B7E8C /* ContentView.swift */; };
 		BE393D7A2887F95B002B7E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE393D792887F95B002B7E8C /* Assets.xcassets */; };
 		BE393D7D2887F95B002B7E8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE393D7C2887F95B002B7E8C /* Preview Assets.xcassets */; };
+		BE393D842887F990002B7E8C /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE393D832887F990002B7E8C /* StateView.swift */; };
+		BE393D862887FB18002B7E8C /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE393D852887FB18002B7E8C /* BindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BE393D772887F959002B7E8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE393D792887F95B002B7E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE393D7C2887F95B002B7E8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE393D832887F990002B7E8C /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		BE393D852887FB18002B7E8C /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				BE393D752887F959002B7E8C /* TryStateBIndingApp.swift */,
+				BE393D832887F990002B7E8C /* StateView.swift */,
 				BE393D772887F959002B7E8C /* ContentView.swift */,
+				BE393D852887FB18002B7E8C /* BindingView.swift */,
 				BE393D792887F95B002B7E8C /* Assets.xcassets */,
 				BE393D7B2887F95B002B7E8C /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE393D842887F990002B7E8C /* StateView.swift in Sources */,
 				BE393D782887F959002B7E8C /* ContentView.swift in Sources */,
+				BE393D862887FB18002B7E8C /* BindingView.swift in Sources */,
 				BE393D762887F959002B7E8C /* TryStateBIndingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
